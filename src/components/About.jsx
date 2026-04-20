@@ -19,7 +19,7 @@ export default function About({ onBook }) {
           <div className="about__img-wrap">
             <div className="about__img-frame">
               <img
-                src="./doctor.jpg"
+                src="./doctor1.jpg"
                 alt="Dr. Mahika Goel Jaiswal, Dermatologist at Soraya Skin Clinic Nagpur"
                 width="600"
                 height="800"
