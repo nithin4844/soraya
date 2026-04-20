@@ -67,7 +67,10 @@ function ServiceCard({ s, onBook }) {
           <img
             src={s.img}
             alt={s.name}
+            width="800"
+            height="600"
             loading="lazy"
+            decoding="async"
             onError={() => setImgOk(false)}
           />
         )}

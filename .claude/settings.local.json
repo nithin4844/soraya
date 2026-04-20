@@ -10,7 +10,13 @@
       "WebFetch(domain:www.practo.com)",
       "WebFetch(domain:www.justdial.com)",
       "WebFetch(domain:www.google.com)",
-      "WebFetch(domain:www.facebook.com)"
+      "WebFetch(domain:www.facebook.com)",
+      "Bash(magick doctor.jpg -resize '1400x1400>' -strip -interlace Plane -quality 82 -sampling-factor 4:2:0 doctor.opt.jpg)",
+      "Bash(mv doctor.opt.jpg doctor.jpg)",
+      "Bash(magick brand-logo.jpg -resize '256x256>' -strip -quality 88 brand-logo.opt.jpg)",
+      "Bash(mv brand-logo.opt.jpg brand-logo.jpg)",
+      "Read(//tmp/**)",
+      "Bash(curl -s http://localhost:5175/src/index.css)"
     ]
   }
 }

@@ -42,8 +42,13 @@ export default function Testimonials() {
   const next = () => setCur(c => (c + 1) % TESTI.length)
 
   useEffect(() => {
-    const timer = setInterval(next, 6500)
-    return () => clearInterval(timer)
+    let timer
+    const start = () => { timer = setInterval(next, 6500) }
+    const stop  = () => { clearInterval(timer) }
+    const onVis = () => (document.hidden ? stop() : start())
+    start()
+    document.addEventListener('visibilitychange', onVis)
+    return () => { stop(); document.removeEventListener('visibilitychange', onVis) }
   }, [])
 
   const onTouchStart = e => { startX.current = e.touches[0].clientX }

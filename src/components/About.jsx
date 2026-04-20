@@ -21,7 +21,10 @@ export default function About({ onBook }) {
               <img
                 src="./doctor.jpg"
                 alt="Dr. Mahika Goel Jaiswal, Dermatologist at Soraya Skin Clinic Nagpur"
+                width="600"
+                height="800"
                 loading="lazy"
+                decoding="async"
               />
             </div>
           </div>

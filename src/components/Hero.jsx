@@ -47,7 +47,11 @@ export default function Hero({ onBook }) {
           src="./doctor.jpg"
           alt="Dr. Mahika Goel Jaiswal, Soraya Skin Clinic Nagpur"
           className="hero__photo"
+          width="900"
+          height="1200"
           loading="eager"
+          fetchpriority="high"
+          decoding="async"
         />
         <div className="hero__veil" />
       </div>
