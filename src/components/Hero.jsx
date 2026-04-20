@@ -3,10 +3,6 @@ export default function Hero({ onBook }) {
     <section className="hero" aria-label="Hero">
       <div className="hero__left">
         <div className="hero__content">
-          <span className="hero__eyebrow">
-            <i className="fa-solid fa-leaf" /> Soraya Skin Clinic · Nagpur
-          </span>
-
           <h1 className="hero__headline">
             Healthy Skin,<br />
             <em>Happy You!</em>

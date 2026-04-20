@@ -49,29 +49,7 @@ export default function BookCTA({ onBook }) {
               Schedule a personalised consultation with Dr. Mahika and discover
               the treatment plan designed for your unique skin.
             </p>
-
-            <ul className="book-cta__info">
-              <li className="book-cta__info-row">
-                <i className="fa-solid fa-location-dot" />
-                <span>
-                  Ground Floor, Jagannath Sadan,<br />
-                  Beside Hotel Hardeo, Sitabuldi,<br />
-                  Nagpur 440 012
-                </span>
-              </li>
-              <li className="book-cta__info-row">
-                <i className="fa-solid fa-phone" />
-                <span>
-                  <a href="tel:+917420999402">+91 74209 99402</a>
-                  &nbsp;·&nbsp;
-                  <a href="tel:+919175999402">+91 91759 99402</a>
-                </span>
-              </li>
-              <li className="book-cta__info-row">
-                <i className="fa-regular fa-clock" />
-                <span>Monday – Saturday &nbsp;·&nbsp; 10 AM – 7 PM</span>
-              </li>
-            </ul>
+            
           </div>
 
           <div className="book-cta__form">
@@ -125,9 +103,6 @@ export default function BookCTA({ onBook }) {
                 <div className="modal-actions">
                   <button type="submit" className="btn btn-sage" style={{ width: '100%', justifyContent: 'center' }}>
                     <i className="fa-brands fa-whatsapp" /> Send via WhatsApp
-                  </button>
-                  <button type="button" className="btn btn-outline-ink" style={{ width: '100%', justifyContent: 'center' }} onClick={onBook}>
-                    <i className="fa-regular fa-calendar-check" /> Use Booking Form
                   </button>
                 </div>
               </form>

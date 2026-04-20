@@ -20,8 +20,8 @@ export default function Footer({ onBook }) {
                 </div>
               </div>
               <p className="footer__tagline">
-                Expert dermatology and medical aesthetics under Dr. Mahika Goel Jaiswal
-                (MBBS, MD DVD, FAD Dubai) in the heart of Nagpur.
+                Expert dermatology and medical aesthetics under Dr. Mahika Goel Jaiswal, 
+                MBBS, MD DVD, FAD (Dubai) in the heart of Nagpur.
               </p>
               <div className="footer__socials">
                 <a href="https://wa.me/917420999402" className="footer__soc" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
@@ -113,14 +113,6 @@ export default function Footer({ onBook }) {
           </div>
         </div>
 
-        <div className="footer__bottom">
-          <div className="footer__bottom-inner">
-            <p>© {year} Soraya Skin Clinic. All rights reserved.</p>
-            <div className="footer__legal">
-              <span>Designed with care for Dr. Mahika Goel Jaiswal</span>
-            </div>
-          </div>
-        </div>
       </div>
     </footer>
   )

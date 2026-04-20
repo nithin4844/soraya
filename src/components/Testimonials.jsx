@@ -116,7 +116,7 @@ export default function Testimonials() {
               Follow Along
             </span>
             <h3 className="stories__ig-title">
-              See the Clinic <em>On Instagram</em>
+              Check us out on <em>Instagram</em>
             </h3>
             <p className="stories__ig-sub">
               Skincare tips, treatment walkthroughs, and behind-the-scenes
